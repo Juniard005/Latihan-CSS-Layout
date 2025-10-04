@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style */
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(Image/dark_wood.png);
+    line-height: 28px;
+    color: #333;
+    margin-top: 50px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    background-color: #eaeaea;
+    box-sizing: border-box;
+}
+
+.instagram {
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    right: 4%;
+}
+
+/* Header */
+
+.header {
+    padding: 30px;
+}
+
+.header .title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+nav .menu li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+nav a{
+    color: mediumpurple;
+    padding: 5px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+nav a:active {
+    background-color: mediumorchid;
+    color: #fff;
+}
+
+/* Hero */
+
+figure .kadita {
+    width: 1132px;
+    height: 570px;
+    border: forestgreen solid 5px;
+}
+
+.Kadita {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+figure .mature {
+    width: 1132px;
+    height: 570px;
+    border: #1d2025 solid 5px;
+}
+
+.Mature {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+figure .sumire {
+    width: 1132px;
+    height: 570px;
+    border: mediumpurple solid 5px;
+}
+
+.Sumire {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main {
+    margin: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* content */
+
+.content {
+    width: 750px;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.artikel_1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.penolakan {
+    font-size: 18px;
+}
+
+.artikel_2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.santai {
+    font-size: 18px;
+}
+
+.artikel_3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.Heaven {
+    font-size: 18px;
+}
+
+/* Aside */
+
+.bio {
+    float: right;
+    width: 400px;
+    /* padding: 20px; */
+    box-sizing: border-box;
+}
+
+.bio img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+
+.bio h3 {
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.bio p {
+    font-size: 18px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1d2025;
+    box-sizing: border-box;
+    border: black solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+/* clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
